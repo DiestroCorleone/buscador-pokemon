@@ -29,11 +29,7 @@ function search(){
 window.onload = function(){
 	var pokemonABuscar = document.getElementById("pokemonABuscar");
 	pokemonABuscar.addEventListener("keyup", function(event) {
-<<<<<<< HEAD
-		if(event.keyCode === 13) {
-=======
 		if (event.keyCode === 13) {
->>>>>>> 37b88bbd0766dc402241f166ca1be3e698763abe
 			event.preventDefault();
 			document.getElementById("search").click();
 		}

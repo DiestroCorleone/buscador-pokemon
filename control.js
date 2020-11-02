@@ -21,6 +21,17 @@ function search(){
 				pokeList.appendChild(list);
 				document.getElementById("pokemonABuscar").value = "";
 				})	
+			document.getElementById("footer").classList.remove("row", "col-full", "fixed-down");	
 	}
 	pokemonABuscar = null;
+}
+
+window.onload = function(){
+	var pokemonABuscar = document.getElementById("pokemonABuscar");
+	pokemonABuscar.addEventListener("keyup", function(event) {
+		if(event.keyCode === 13) {
+			event.preventDefault();
+			document.getElementById("search").click();
+		}
+	});
 }

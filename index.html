@@ -49,7 +49,7 @@
 		<img src = "poke-logo.png">
 		<h1 class = "font-blue font-Oswald">BUSCADOR DE POKÉMON</h1>
 		<input type = "text" class = "input bordered border-blue font-lato padded" placeholder = "Ej: Charizard" id = "pokemonABuscar"><br><br>
-		<button class = "btn-red padded bordered border-blue font-white font-Oswald" onclick = "search()">Buscar</button>
+		<button class = "btn-red padded bordered border-blue font-white font-Oswald" onclick = "search()" id = "search">Buscar</button>
 	</header>
 	<div class = "row col-full padded">
 		<div class = "col-full">
@@ -57,8 +57,8 @@
 			<p class = "font-Oswald text-c"><strong>Hacé hover</strong> sobre el Pokémon para agrandarlo.</p>
 		</div>
 	</div>
-	<footer class = "bg-red padded text-c font-white font-Lato">
-		<p>Coded by Diestro Corleone using the <a href = "https://pokeapi.co/" target = "_blank">PokéAPI</a>.<br><a href = "mailto:matias.perez.mcd@gmail.com">Mandame un e-mail!</a></p>
+	<footer class = "row col-full bg-red padded text-c font-white font-Lato fixed-down" id="footer">
+		<p>Coded by Diestro Corleone using the <a href = "https://pokeapi.co/" target = "_blank">PokéAPI</a>.</p><br><p><a href = "mailto:matias.perez.mcd@gmail.com">Mandame un e-mail!</a></p>
 	</footer>
 </body>
 </html>
